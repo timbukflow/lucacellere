@@ -1,9 +1,14 @@
 $(document).ready(function () {
     
-////////////// home fade in animation //
+////////////// Navigation Info //////////////
+    
+$('.navinfo').click(function() {
+    $('.navinfocontainer').css('left','0px');
+});
+
     
 $('.navbutton').click(function() {
-    var navinfo = $(this).attr("data-toggle");
+    var navinfo = $(this).attr("data-navinfo");
     $(navinfo).show(500);
 });
 

@@ -35,41 +35,17 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     font-weight: 400;
     font-style: normal;
     font-family: 'calibre', serif;  
-    font-size: 22px;
+    font-size: 48px;
     line-height: 1.2;
     text-align: left;
+    display: inline-block;
     hyphens: auto;
     -webkit-hyphens: auto;
     text-decoration: none;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.75px;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-h1 {
-    font-size: 22px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-size: 48px;
-    letter-spacing: 0.75px;
-}
-
-figure {
-    margin-bottom: 80px;
-}
-
-figcaption {
-    font-size: 14px;
-    padding: 15px 20px;
-}
-
-p, a{
-    font-size: 17px;
-    line-height: 1.75;
 }
 
 .headercontainer {
@@ -79,26 +55,29 @@ p, a{
 }
 
 .navinfo {
+    font-size: 22px;
     margin: 30px;
     float: left;
 }
 
 .navinfocontainer {
+    left: -50%;
     width: 50%;
     background-color: #e5e5e5;
     height: 100vh;
     position: absolute;
     padding: 30px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    transition: left 0.5s;
+    -webkit-transition: left 0.5s;
 }
 
-.navbutton h2 {
+.navbutton {
     margin: 0;
 }
 
 .navbutton {
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .navbutton h2:hover {
@@ -110,10 +89,26 @@ p, a{
     min-width: 100%;
     background-color: #393939;
     min-height: 100vh;
-    position: fixed;
+    position: absolute;
     z-index: 101;
 }
 
+h1.info {
+    color: #ffffff;
+    margin: 90px;
+    text-align: center;
+}
+
+a.info {
+    color: #ffffff;
+}
+
+.info span {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+} 
 
 .monster {
     float: right;
