@@ -1,5 +1,21 @@
 $(document).ready(function () {
     
+////////////// home fade in animation //
+    
+$('.navbutton').click(function() {
+    var navinfo = $(this).attr("data-toggle");
+    $(navinfo).show(500);
+});
+
+$('.infocontainer').click(function() {
+    $('.infocontainer').hide(500);
+});
+    
+    
+    
+    
+    
+    
      // home fade in animation //
 
     setTimeout(function () {
