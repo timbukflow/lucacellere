@@ -1,5 +1,5 @@
 <section class="headercontainer">
-    <h1 class="navinfo">Luca Cellere</h1>
+    <h1 class="navinfo bw">Luca Cellere</h1>
     <img class="monster" src="img/random/luca-cellere-monster<?php echo(mt_rand(1,4)); ?>.svg" width="45px">
     <nav class="navinfocontainer">
         <img class="closer" src="img/closer.svg">
