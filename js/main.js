@@ -5,15 +5,19 @@ $(document).ready(function () {
 $('.navinfo').click(function() {
     $('.navinfocontainer').css('left','0px');
 });
-
     
+$('.closer').click(function() {
+    $('.navinfocontainer').css('left','-50%');
+});
+ 
 $('.navbutton').click(function() {
     var navinfo = $(this).attr("data-navinfo");
     $(navinfo).show(500);
 });
-
-$('.infocontainer').click(function() {
-    $('.infocontainer').hide(500);
+    
+$('.closerinfo').click(function() {
+    var closer = $(this).attr("data-closer");
+    $(closer).hide(500);
 });
     
     

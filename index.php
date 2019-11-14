@@ -9,11 +9,31 @@
 </head>
     
 <body>
-    <?php include 'header.php'; ?>
+    <?php include 'nav.php'; ?>
     <section class="home">
-        <article>
-            
-        </article>    
+        <header class="homeheader">
+            <h1>Studio für<br>Visuelle Kommunikation</h1>
+        </header>
+        <article class="homeproject">
+            <figure class="indexpic">
+                <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-index.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+            </figure>
+        </article>
+        <article class="homeproject">
+            <figure class="indexpic">
+                <img src="img/luca-cellere-visuelle-kommunikation-leben-index.jpg" alt="luca-cellere-visuelle-kommunikation-leben">
+            </figure>
+        </article>
+        <article class="homeproject">
+            <figure class="indexpic">
+                <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-index.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+            </figure>
+        </article>
+        <article class="homeproject">
+            <figure class="indexpic">
+                <img src="img/luca-cellere-visuelle-kommunikation-leben-index.jpg" alt="luca-cellere-visuelle-kommunikation-leben">
+            </figure>
+        </article>
     </section>
     
     

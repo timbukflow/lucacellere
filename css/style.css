@@ -37,7 +37,7 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     font-family: 'calibre', serif;  
     font-size: 48px;
     line-height: 1.2;
-    text-align: left;
+    text-align: center;
     display: inline-block;
     hyphens: auto;
     -webkit-hyphens: auto;
@@ -47,6 +47,10 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/*---------------------------------- 
+    header nav
+-----------------------------------*/
 
 .headercontainer {
     position: fixed;
@@ -58,6 +62,12 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     font-size: 22px;
     margin: 30px;
     float: left;
+    cursor: pointer;
+}
+
+.monster {
+    float: right;
+    margin: 30px;
 }
 
 .navinfocontainer {
@@ -68,145 +78,104 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     position: absolute;
     padding: 30px;
     box-sizing: border-box; 
-    transition: left 0.5s;
-    -webkit-transition: left 0.5s;
+    transition: left 0.75s ease-out;
+    -webkit-transition: left 0.75s ease-out;
 }
 
-.navbutton {
+.navfon {
+    position: absolute;
+    bottom: 10px;
+}
+
+h2.navbutton {
     margin: 0;
-}
-
-.navbutton {
     cursor: pointer;  
 }
 
-.navbutton h2:hover {
+h2.navbutton:hover {
     color: #ffffff;
 }
 
-.infocontainer {
-    display: none;
-    min-width: 100%;
-    background-color: #393939;
-    min-height: 100vh;
-    position: absolute;
-    z-index: 101;
-}
-
-h1.info {
-    color: #ffffff;
-    margin: 90px;
-    text-align: center;
-}
-
-a.info {
-    color: #ffffff;
-}
-
-.info span {
-    color: #ffffff;
-    display: block;
-    text-align: center;
-    margin-top: 30px;
-} 
-
-.monster {
+.closer {
+    width: 30px;
+    height: 30px;
     float: right;
-    margin: 30px;
+    cursor: pointer;
+    margin: 5px;
 }
 
-
-
-
-
-
-.link, .linkw {
-    position: relative;
-    display: inline-block;
+.closerinfo {
+    width: 30px;
+    height: 30px;
+    margin: 50px auto;
     cursor: pointer;
 }
 
-.link::after {
-    content: '';
-    position: absolute;
-    bottom:0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin: 0 auto;
-    height: 1px;
-    background-color: #718166;
-    opacity: 0.5;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+.closer:hover, .closerinfo:hover {
+    /*
+    transform: rotate(180deg);
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+    */
+    transform: scale(1.25);
+    transition: scale 0.25s;
 }
 
-.link:hover::after{
-    opacity: 1;
-    width: 90%;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.linkw::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin: 0 auto;
-    height: 1px;
-    background-color: #ffffff;
-    opacity: 0.25;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.linkw:hover::after{
-    opacity: 1;
-    width: 90%;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-#loader{
+.infocontainer {
+    min-width: 100%;
+    background-color: #393939;
+    min-height: 100vh;
     position: fixed;
-    z-index: 10000;
+    z-index: 101;
+    text-align: center;
+    display: none;
+}
+
+.info {
     width: 100%;
+    overflow: auto;
     height: 100vh;
-    background-color: #718166;
 }
 
-#loader img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -250px;
-    margin: auto;
-    
-    animation:  loader 1.5s; 
-    animation-delay: 0.25s;
-    animation-iteration-count: 1;
-    animation-timing-function:ease-in-out;
-    animation-fill-mode: forwards;
+.info h1 {
+    color: #ffffff;
+    padding: 100px;
+    padding-bottom: 0px;
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box; 
 }
 
-@-webkit-keyframes loader {
-    from    { bottom: -250px;}
-    to      { bottom: 0px;}
+.info a {
+    color: #ffffff;
+    height: auto;
+    display: inline;
 }
 
-@keyframes loader {
-    from    { bottom: -250px;}
-    to      { bottom: 0px;}
+
+
+/*---------------------------------- 
+    Container Start
+-----------------------------------*/
+
+.home {
+    margin: 0px;
+}
+
+.homeheader {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.homeproject {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.indexpic img {
+    width: 100%;
 }
 
 
