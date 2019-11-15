@@ -82,15 +82,7 @@
     <!--Home-Projekt-Ende-->
     </section>
     
-    
-    <section class="sectioncontainer">
-        
-        <article class="acontainer">
-        </article>
-    </section>
-    
-<!--  ?
-    <php include 'footer.php'; ?>-->
+    <?php include 'footer.php'; ?>
     <?php include 'script.php'; ?>
 
 

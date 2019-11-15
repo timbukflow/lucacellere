@@ -35,7 +35,7 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     font-weight: 400;
     font-style: normal;
     font-family: 'calibre', serif;  
-    font-size: 48px;
+    font-size: 50px;
     line-height: 1.2;
     text-align: center;
     display: inline-block;
@@ -48,8 +48,12 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p, footer span, footer a {
+   font-size: 20px; 
+}
+
 /*---------------------------------- 
-    header nav
+    Header Nav
 -----------------------------------*/
 
 .headercontainer {
@@ -59,10 +63,11 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
 }
 
 .navinfo {
-    font-size: 22px;
+    font-size: 25px;
     margin: 30px;
     float: left;
     cursor: pointer;
+    letter-spacing: 0.5px;
 }
 
 .monster {
@@ -112,14 +117,10 @@ h2.navbutton:hover {
 }
 
 .closer:hover, .closerinfo:hover {
-    /*
-    transform: rotate(180deg);
-    -webkit-transition: transform 0.5s;
-    transition: transform 0.5s;
-    */
     transform: scale(1.25);
-     -webkit-transition: scale(1.25);
+     -webkit-transform: scale(1.25);
     transition: scale 0.25s;
+    -webkit-transition: scale 0.25s;
 }
 
 .infocontainer {
@@ -165,12 +166,18 @@ h2.navbutton:hover {
     color: #fff;
 }
 
+.black-monster {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
 /*---------------------------------- 
-    Container Start
+    Home
 -----------------------------------*/
 
 .home {
     margin: 0px;
+    display: inline-block;
 }
 
 .homeheader {
@@ -212,8 +219,52 @@ h2.navbutton:hover {
     -webkit-transition: opacity 0.25s;
 }
 
+/*---------------------------------- 
+    Projekte
+-----------------------------------*/
 
-   
+
+
+
+
+/*---------------------------------- 
+    Footer
+-----------------------------------*/
+
+footer {
+    position: relative;
+}
+
+.footer {
+    margin-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.impressum {
+    cursor: pointer;
+}
+
+.ficontainer {
+    background-color: #393939; 
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: none;    
+    position: absolute;
+}
+
+.ficontainer p {
+    text-align: left;
+    float: left;
+    margin: 30px 30px 60px 30px;
+}
+
+.ficontainer p, .ficontainer a {
+     color: #fff;
+}
+
+
 /*---------------------------------- 
     header nav
 -----------------------------------*/
@@ -941,124 +992,6 @@ th:last-child, td:last-child {border-right: none;}
 }
 
 
-
-/*---------------------------------- 
-    footer
------------------------------------*/
-
-footer {
-    margin: 0;
-    position: relative;
-    display: inline-block;
-    background: #718166;
-    width: 100%;
-    float: left;
-    z-index: 1
-}
-
-.footer {
-    display: inline-block;
-    width: 100%;
-}
-
-.footerkontakt {
-    float: left;
-    
-}
-
-.footerkontakt p {
-    color: #fff;
-    margin: 40px;
-}
-
-.footerkontakt a,
-#impressum p{
-    color: #fff;
-}
-
-.footernav {
-    float: right;
-    margin: 40px 80px 40px 40px;
-}
-
-.footernav ul {
-    margin: 0;
-    display: inline-block;
-    padding: 0;
-}
-
-footer a{
-    color: #fff;
-    margin: 0;
-}
-
-.impressum {
-    color: #fff;
-    margin: 0;
-    cursor: pointer;
-}
-
-#impressum {
-    display: none;
-    padding: 40px 40px;
-    position: relative;
-    float: left;
-}
-
-.disclamer {
-    font-size: 14px;
-    color: #fff;
-}
-
-.konditionen {
-    font-size: 14px;
-    color: #718166;
-}
-
-#datenschutz,
-#konditionen {
-    display: none;
-    padding: 0px 40px 40px;
-    position: relative;
-    float: left;
-}
-
-#datenschutz p{
-    font-size: 14px;
-    color: #fff;
-}
-
-
-#optoutbanner99 {
-	font-size: 12px;
-	line-height: 18px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-	background-color: #f2f2f2;
-	padding: 20px;
-	text-align: right;
-	z-index: 200;
-}
-
-#optoutbanner99 a,
-#optoutbanner99 p{
-	cursor: pointer;
-    font-size: 15px;
-    display: inline-block;
-    margin: 0px 3px;
-}
-
-#acceptga {
-	text-decoration: none !important;
-	background-color: #718166;
-	color: #fff !important;
-	font-weight: normal !important;
-    padding: 0px 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
 
 
 /*---------------------------------- 

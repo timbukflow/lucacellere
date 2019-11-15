@@ -4,7 +4,6 @@
     <nav class="navinfocontainer">
         <img class="closer" src="img/closer.svg">
         <div><h2 class="navbutton" data-navinfo="#info">Info</h2></div>
-        <div><h2 class="navbutton" data-navinfo="#projekte">Projekte</h2></div>
         <div><h2 class="navbutton" data-navinfo="#kontakt">Kontakt</h2></div>
         <div class="navfon">
             <a href="tel:+41796659829">T +41 79 665 98 29</a>
@@ -19,15 +18,6 @@
                 Luca Cellere Ectur aute pores estrum eat que nis evel et vitiis sapiderio. As in electi odi del modignist, sequis doluptur aut mo moles idel idellit laborum utempora necea quia sum quid min perum que nat. Xerovitatet, cor sitat. Bis ullorro quiasit vendi nis porum ut volorerum vent, nonem ario. Nem et reptus restenet asi sequatia quos di alit quatetur. Moloreperro eum cone iur magnam re optatem fuga. Empor re, sequis.
             </h1>
             <img class="closerinfo" src="img/closerw.svg" data-closer="#info">
-        </div>
-    </div>
-    
-    <div id="projekte" class="infocontainer">
-        <div class="info">
-            <h1>
-                Projekte?
-            </h1>
-            <img class="closerinfo" src="img/closerw.svg" data-closer="#projekte">
         </div>
     </div>
     
