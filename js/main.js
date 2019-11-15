@@ -35,4 +35,15 @@ $(document).ready(function () {
     });
     
     
+////////////// Fullscreen Slider //////////////
+    
+    new fullScroll({
+			mainElement: 'main',
+			displayDots: false,
+			dotsPosition: 'left',
+			animateTime: 0.7,
+			animateFunction: 'ease-in-out'
+		});
+    
+    
 });
