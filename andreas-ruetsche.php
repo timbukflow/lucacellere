@@ -10,7 +10,7 @@
     
 <body>
     <?php include 'nav.php'; ?>
-    <div class="scroll-container-box">
+    
         <div id="main" class="scroll-container">
             <section class="section1">
                 <div>
@@ -38,7 +38,7 @@
                 </div>
             </section>
         </div>
-    </div>
+
     <?php include 'script.php'; ?>
 
 
