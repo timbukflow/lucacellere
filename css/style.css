@@ -222,7 +222,7 @@ h2.navbutton:hover, h2.navbuttonlink a:hover {
 /*---------------------------------- 
     Projekte
 -----------------------------------*/
-.scroll-container-box {
+body, html {
 	margin: 0;
 	padding: 0;
 	width: 100%;
