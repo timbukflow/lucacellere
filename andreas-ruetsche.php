@@ -12,32 +12,10 @@
     <?php include 'nav.php'; ?>
     
         <div id="main" class="scroll-container">
-            <section class="section1">
-                <div>
-                    <span>Section 1</span>          
-                </div>
-            </section>
-            <section class="section2">
-                <div>
-                    <span>Section 2</span>  
-                </div>
-            </section>
-            <section class="section3">
-                <div>
-                    <span>Section 3</span>      
-                </div>
-            </section>
-            <section class="section4">
-                <div>
-                    <span>Section 4</span>      
-                </div>
-            </section>
-            <section class="section5">
-                <div>
-                    <span>Section 5</span>       
-                </div>
-            </section>
-        </div>
+	<section class="one"> Section 1</section>
+	<section class="dos"> Section 2</section>
+	<section> Section 3</section>
+</div>
 
     <?php include 'script.php'; ?>
 
