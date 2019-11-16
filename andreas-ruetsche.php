@@ -12,17 +12,32 @@
     <?php include 'nav.php'; ?>
     
     <section class="projekt">
-        <article data-target="a1" class="imgfullscreen andreas-ruetsche-01"></article>
-        <article data-target="a2" id="a1">
+        <article data-target="a1" class="click imgfullscreen andreas-ruetsche-01">
+            <!--Image in Style.css definieren-->
+        </article>
+        <article data-target="a2" id="a1" class="click">
             <h1 class="projektdescription">
                 Branding, visual identity and photography for Andreas Rütsche – Holz &amp; Form.
                 Andreas Rütsche is a woodturner / carpenter working in St. Gallen, Switzerland.
             </h1>  
         </article>
-        <article data-target="a3" id="a2" class="imgoneboarder">
-            <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-index.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+        <article data-target="a3" id="a2" class="click imgone">
+            <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-visitenkarten.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
         </article>
-        <article data-target="a4" id="a3"></article>
+        <article data-target="a4" id="a3" class="click imgtwo">
+            <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+            <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+        </article>
+        <article data-target="a5" id="a4" class="click imgfullscreen andreas-ruetsche-02">
+            <!--Image in Style.css definieren-->
+        </article>
+         <a href="index" class="closerprojekt">
+             <article id="a5" >
+                <h1 class="projektdescription">
+                    Fotografie: Bodo Rüedi<br> Druck Visitenkarte: Tada Letterpress
+                 </h1>
+            </article>
+        </a>
     </section>
     
     

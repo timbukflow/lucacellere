@@ -233,6 +233,14 @@ h2.navbutton:hover, h2.navbuttonlink a:hover {
     justify-content: center;
 }
 
+.projekt a {
+    width: 100%;
+}
+
+.click {
+     cursor: pointer;
+}
+
 .imgfullscreen {
     background-position: center;
     background-repeat: no-repeat;
@@ -240,22 +248,36 @@ h2.navbutton:hover, h2.navbuttonlink a:hover {
     height: 100%;
 }
 
-.imgoneboarder {
+.imgone, .imgtwo {
     overflow: hidden;
 }
 
-.imgoneboarder img{
-    min-height: 80vh;
+.imgone img{
+    max-height: 80vh;
+    /* Responsive width 100%; */
+}
+
+.imgtwo img{
+    max-height: 80vh;
+    margin: 0 20px;
+    /* Responsive width 100%; */
 }
 
 
 .andreas-ruetsche-01 {
-    background-image: url("../img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-logo-beschriftung.jpg");
+    background-image: url("../img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-logo-beschriftung.jpg");   
+}
+.andreas-ruetsche-02 {
+    background-image: url("../img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-arbeit.jpg");
     
 }
 
 .projektdescription {
     padding: 0 20%;
+}
+
+.closerprojekt {
+     cursor: url('../img/closer.png'), auto;
 }
 
 

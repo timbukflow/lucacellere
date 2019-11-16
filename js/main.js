@@ -38,7 +38,7 @@ $(document).ready(function () {
 ////////////// Fullscreen Slider //////////////
    
 
-    $(".projekt article").on("click", function(event) {
+    $(".click").on("click", function(event) {
       var hash = $(this).attr("data-target"),
         target = $("#" + hash);
     
