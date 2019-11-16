@@ -11,13 +11,23 @@
 <body>
     <?php include 'nav.php'; ?>
     
-        <div id="main" class="scroll-container">
-	       <section class="one"> Section 1</section>
-	       <section class="dos"> Section 2</section>
-	       <section> Section 3</section>
-        </div>
+    <section class="projekt">
+        <article data-target="a1" class="imgfullscreen andreas-ruetsche-01"></article>
+        <article data-target="a2" id="a1">
+            <h1 class="projektdescription">
+                Branding, visual identity and photography for Andreas Rütsche – Holz &amp; Form.
+                Andreas Rütsche is a woodturner / carpenter working in St. Gallen, Switzerland.
+            </h1>  
+        </article>
+        <article data-target="a3" id="a2" class="imgoneboarder">
+            <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-index.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+        </article>
+        <article data-target="a4" id="a3"></article>
+    </section>
+    
+    
 
-    <?php include 'script.php'; ?>
+     <?php include 'script.php'; ?>
 
 
 </body>

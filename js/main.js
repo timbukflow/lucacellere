@@ -36,14 +36,23 @@ $(document).ready(function () {
     
     
 ////////////// Fullscreen Slider //////////////
+   
+
+    $(".projekt article").on("click", function(event) {
+      var hash = $(this).attr("data-target"),
+        target = $("#" + hash);
     
-    new fullScroll({
-		mainElement: 'main',
-		displayDots: true,
-		dotsPosition: 'left',
-		animateTime: 0.7,
-		animateFunction: 'ease'
-	});
+        event.preventDefault();
+        $("html, body").animate({
+            scrollTop: $(target).offset().top
+          },
+          800,
+          function() {
+            window.location.hash = hash;
+          }
+        );
+      });
     
     
 });
+

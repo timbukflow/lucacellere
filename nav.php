@@ -7,11 +7,12 @@
         <div><h2 class="navbuttonlink"><a href="index">Projekte</a></h2></div>
         <div><h2 class="navbutton" data-navinfo="#kontakt">Kontakt</h2></div>
         <div class="navfon">
-            <a href="tel:+41796659829">T +41 79 665 98 29</a>
+            <a href="tel:+41796659829">T +41 79 665 98 29</a><br>
             <a href="mailto:hallo@lucacellere.ch" target="_top">hallo@lucacellere.ch</a>
         </div>
     </nav>
 </section>
+
 <section>
     <div id="info" class="infocontainer">
         <div class="info">
@@ -39,3 +40,4 @@
     </div>
     
 </section>
+
