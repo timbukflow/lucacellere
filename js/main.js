@@ -7,7 +7,7 @@ $(document).ready(function () {
     });
     
     $('.closer').click(function() {
-        $('.navinfocontainer').css('left','-50%');
+        $('.navinfocontainer').css('left','-100%');
     });
     
     $('.navbutton').click(function() {
@@ -23,14 +23,14 @@ $(document).ready(function () {
     $('.monster').click(function () {
         $('body').toggleClass("black-background");
         $('.bw').toggleClass("black-font");
-        $('.monster').toggleClass('black-monster')
+        $('.monster').toggleClass('black-monster');
     });
     
     $('.impressum').click(function() {
         $('.ficontainer').slideDown(500);
     });
     
-    $('.ficontainer').mouseleave(function() {
+    $('.ficontainer').click(function() {
         $('.ficontainer').slideUp(500);
     });
     
