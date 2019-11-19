@@ -18,14 +18,14 @@ $(document).ready(function () {
     $('.closerinfo').click(function() {
         var closer = $(this).attr("data-closer");
         $(closer).hide(500);
-        
     });
     
-    $('.monster').click(function () {
-        $('body').toggleClass("black-background");
-        $('.bw').toggleClass("black-font");
-        $('.monster').toggleClass('black-monster');
-    });
+    
+    //$('.monster').click(function () {
+      //  $('body').toggleClass("black-background");
+        //$('.bw').css('color','#fff');
+        //$('.monster').toggleClass('black-monster');
+    //});
     
     $('.impressum').click(function() {
         $('.ficontainer').slideDown(500);
@@ -35,31 +35,7 @@ $(document).ready(function () {
         $('.ficontainer').slideUp(500);
     });
     
-    
-////////////// Fullscreen Slider //////////////
-   
 
-    $(".click").on("click", function(event) {
-      var hash = $(this).attr("data-target"),
-        target = $("#" + hash);
-    
-        event.preventDefault();
-        $("html, body").animate({
-            scrollTop: $(target).offset().top
-          },
-          800,
-          function() {
-            window.location.hash = hash;
-          }
-        );
-      });
-    
-    
-
-    
-    
-    
-    
     
 });
 
