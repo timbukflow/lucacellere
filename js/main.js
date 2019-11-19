@@ -13,11 +13,13 @@ $(document).ready(function () {
     $('.navbutton').click(function() {
         var navinfo = $(this).attr("data-navinfo");
         $(navinfo).show(500);
+        $('.projekt, .home').addClass('notscroll')
     });
     
     $('.closerinfo').click(function() {
         var closer = $(this).attr("data-closer");
         $(closer).hide(500);
+        $('.projekt, .home').removeClass('notscroll')
     });
     
     $('.monster').click(function () {

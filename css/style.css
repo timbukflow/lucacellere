@@ -61,6 +61,7 @@ p, footer span, footer a {
     position: fixed;
     width: 100%;
     z-index: 100;
+    top: 0;
 }
 
 .navinfo {
@@ -103,7 +104,7 @@ h2.navbutton, h2.navbuttonlink {
     cursor: pointer;  
 }
 
-h2.navbutton:hover, a h2.navbuttonlink:hover {
+h2.navbutton:hover,  .backhome:hover {
     color: #ffffff;
 }
 
@@ -134,6 +135,7 @@ h2.navbutton:hover, a h2.navbuttonlink:hover {
     background-color: #393939;
     min-height: 100vh;
     position: fixed;
+    top: 0;
     z-index: 101;
     text-align: center;
     display: none;
@@ -160,6 +162,9 @@ h2.navbutton:hover, a h2.navbuttonlink:hover {
     display: inline;
 }
 
+.notscroll {
+    position: fixed;
+}
 /*---------------------------------- 
     Black
 -----------------------------------*/
@@ -339,11 +344,13 @@ responsive ipad
     .projektdescription {padding: 0 10%}
     .imgone img {max-height: none; width: 100%;}
     .imgtwo img {max-height: none; width: 43%; margin: 0 10px;}
-    h1, h2, .navfon a {font-size: 40px;}
+    h1, h2, .backhome, .navfon a {font-size: 40px;}
+    .info h1 {padding: 10%;}
+    .closerinfo {margin-top: 0;}
     
 }
 
 @media only screen and (max-width: 414px) {
-    h1, h2, .navfon a {font-size: 30px;}
+    h1, h2, .backhome, .navfon a {font-size: 30px;}
     
 }

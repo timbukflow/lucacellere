@@ -4,7 +4,7 @@
     <nav class="navinfocontainer">
         <img class="closer" src="img/closer.svg">
         <div><h2 class="navbutton" data-navinfo="#info">Info</h2></div>
-        <div><a href="index"><h2 class="navbuttonlink">Projekte</h2></a></div>
+        <div><h2 class="navbuttonlink"><a class="backhome" href="index">Projekte</a></h2></div>
         <div><h2 class="navbutton" data-navinfo="#kontakt">Kontakt</h2></div>
         <div class="navfon">
             <a href="tel:+41796659829">T +41 79 665 98 29</a><br>
