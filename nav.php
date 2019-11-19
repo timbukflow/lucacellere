@@ -1,17 +1,18 @@
 <section class="headercontainer">
     <h1 class="navinfo bw">Luca Cellere</h1>
     <img class="monster" src="img/random/luca-cellere-monster<?php echo(mt_rand(1,4)); ?>.svg" width="45px">
-    <nav class="navinfocontainer">
-        <img class="closer" src="img/closer.svg">
-        <div><h2 class="navbutton" data-navinfo="#info">Info</h2></div>
-        <div><h2 class="navbuttonlink"><a class="backhome" href="index">Projekte</a></h2></div>
-        <div><h2 class="navbutton" data-navinfo="#kontakt">Kontakt</h2></div>
-        <div class="navfon">
-            <a href="tel:+41796659829">T +41 79 665 98 29</a><br>
-            <a href="mailto:hallo@lucacellere.ch" target="_top">hallo@lucacellere.ch</a>
-        </div>
-    </nav>
 </section>
+
+<nav class="navinfocontainer">
+    <img class="closer" src="img/closer.svg">
+    <div><h2 class="navbutton" data-navinfo="#info">Info</h2></div>
+    <div><h2 class="navbuttonlink"><a class="backhome" href="index">Projekte</a></h2></div>
+    <div><h2 class="navbutton" data-navinfo="#kontakt">Kontakt</h2></div>
+    <div class="navfon">
+        <a href="tel:+41796659829">T +41 79 665 98 29</a><br>
+        <a href="mailto:hallo@lucacellere.ch" target="_top">hallo@lucacellere.ch</a>
+    </div>
+</nav>
 
 <section>
     <div id="info" class="infocontainer">

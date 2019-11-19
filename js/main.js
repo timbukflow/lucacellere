@@ -4,12 +4,10 @@ $(document).ready(function () {
     
     $('.navinfo').click(function() {
         $('.navinfocontainer').css('left','0px');
-        $('.projekt, .home, footer').addClass('notscroll')
     });
     
     $('.closer').click(function() {
         $('.navinfocontainer').css('left','-100%');
-        $('.projekt, .home, footer').removeClass('notscroll')
     });
     
     $('.navbutton').click(function() {

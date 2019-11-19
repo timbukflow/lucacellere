@@ -79,11 +79,12 @@ p, footer span, footer a {
 }
 
 .navinfocontainer {
+    z-index: 101;
     left: -100%;
     width: 50%;
     background-color: #e5e5e5;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     padding: 30px;
     box-sizing: border-box; 
     transition: left 0.5s ease-out;
@@ -136,7 +137,7 @@ h2.navbutton:hover,  .backhome:hover {
     min-height: 100vh;
     position: fixed;
     top: 0;
-    z-index: 101;
+    z-index: 102;
     text-align: center;
     display: none;
 }
@@ -162,9 +163,6 @@ h2.navbutton:hover,  .backhome:hover {
     display: inline;
 }
 
-.notscroll {
-    position: fixed;
-}
 /*---------------------------------- 
     Black
 -----------------------------------*/
