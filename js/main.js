@@ -4,22 +4,23 @@ $(document).ready(function () {
     
     $('.navinfo').click(function() {
         $('.navinfocontainer').css('left','0px');
+        $('.projekt, .home, footer').addClass('notscroll')
     });
     
     $('.closer').click(function() {
         $('.navinfocontainer').css('left','-100%');
+        $('.projekt, .home, footer').removeClass('notscroll')
     });
     
     $('.navbutton').click(function() {
         var navinfo = $(this).attr("data-navinfo");
         $(navinfo).show(500);
-        $('.projekt, .home').addClass('notscroll')
     });
     
     $('.closerinfo').click(function() {
         var closer = $(this).attr("data-closer");
         $(closer).hide(500);
-        $('.projekt, .home').removeClass('notscroll')
+        
     });
     
     $('.monster').click(function () {
