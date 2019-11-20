@@ -240,10 +240,6 @@ h2.navbutton:hover, .navfon a:hover {
     height: 100%;
 }
 
-.imgone, .imgtwo {
-   
-}
-
 .imgone img{
     max-height: 80vh;
     /* Responsive width 100%; */
@@ -338,6 +334,7 @@ responsive ipad
 
 @media only screen and (max-width: 414px) {
     h1, h2, .backhome, .navfon a {font-size: 30px;}
+    .navfon {bottom: 30px;}
     
 }
 
