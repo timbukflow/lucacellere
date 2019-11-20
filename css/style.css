@@ -9,9 +9,10 @@
 
 /*
     Color Theme: lucacellere
-    Main Color Green: #718166;
-    Font Color: #151515;
-    Navigation Background #e5e5e5;
+    Background Color: #000000;
+    Font Color: #ffffff;
+    Navigation Background: #3c3c3c;
+    Link hover: #959595;
 */
 
 @font-face {
@@ -26,12 +27,12 @@ html, body {
 
 body {
     margin: 0px;
-    background-color: #fff;
+    background-color: #000000;
     padding: 0px;
 }
     
 h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
-    color: #151515;
+    color: #ffffff;
     font-weight: 400;
     font-style: normal;
     font-family: 'calibre', serif;  
@@ -82,7 +83,7 @@ p, footer span, footer a {
     z-index: 101;
     left: -100%;
     width: 50%;
-    background-color: #e5e5e5;
+    background-color: #3c3c3c;
     height: 100vh;
     position: fixed;
     padding: 30px;
@@ -100,13 +101,12 @@ p, footer span, footer a {
     display: inline-flex;
 }
 
-h2.navbutton, h2.navbuttonlink {
+h2.navbutton {
     margin: 0;
-    cursor: pointer;  
 }
 
-h2.navbutton:hover,  .backhome:hover {
-    color: #ffffff;
+h2.navbutton:hover, .navfon a:hover {
+    color: #959595;
 }
 
 .closer {
@@ -163,37 +163,30 @@ h2.navbutton:hover,  .backhome:hover {
     display: inline;
 }
 
-/*---------------------------------- 
-    Black
------------------------------------*/
-
-.black-background {
-    background-color: #000000;
+.closercursor {
+     cursor: url('../img/closer.png')25 25, auto;
 }
 
-.black-font {
-    color: #fff;
+.opencursor {
+     cursor: url('../img/open.png')25 25, auto;
 }
 
-.black-monster {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-}
 
-.bw {color: #000;}
 /*---------------------------------- 
     Home
 -----------------------------------*/
 
 .home {
     margin: 0px;
+    margin-top: 330px; 
     display: inline-block;
 }
 
 .homeheader {
+    width: 100%;
     text-align: center;
     padding-top: 90px;
-    padding-bottom: 100px;
+    position: fixed;
 }
 
 .homeproject {
@@ -393,9 +386,6 @@ h2.navbutton:hover,  .backhome:hover {
     padding: 0 20%;
 }
 
-.closerprojekt, .ficontainer {
-     cursor: url('../img/closer.png'), auto;
-}
 
 
 /*---------------------------------- 

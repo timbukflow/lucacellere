@@ -10,11 +10,10 @@
     
 <body>
     <?php include 'nav.php'; ?>
+    <header class="homeheader">
+        <h1 class="bw">Studio für<br>Visuelle Kommunikation</h1>
+    </header>
     <section class="home">
-        <header class="homeheader">
-            <h1 class="bw">Studio für<br>Visuelle Kommunikation</h1>
-        </header>
-        
         <!--Project-Andreas-Ruetsche-->
         <article class="homeproject">
             <figure class="indexcontainer">
