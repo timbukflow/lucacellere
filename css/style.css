@@ -31,11 +31,11 @@ body {
     padding: 0px;
 }
     
-h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
+h1, h2, p, a {
     color: #ffffff;
     font-weight: 400;
     font-style: normal;
-    font-family: 'calibre', serif;  
+    font-family: 'calibre', Helvetica, Sans-Serif;
     font-size: 50px;
     line-height: 1.2;
     text-align: center;
@@ -105,7 +105,7 @@ h2.navbutton {
     margin: 0;
 }
 
-h2.navbutton:hover, .navfon a:hover {
+h2.navbutton:hover, .navfon a:hover, .info a:hover {
     color: #959595;
 }
 
@@ -141,11 +141,11 @@ h2.navbutton:hover, .navfon a:hover {
     display: inline;
 }
 
-.closercursor {
+.cc {
      cursor: url('../img/closer.png')25 25, auto;
 }
 
-.opencursor {
+.oc {
      cursor: url('../img/open.png')25 25, auto;
 }
 
@@ -171,14 +171,15 @@ h2.navbutton:hover, .navfon a:hover {
     width: 50%;
     float: left;
     overflow: hidden;
-}
-
-.indexcontainer {
     position: relative;
 }
 
-.indexcontainer img {
+.homeproject img {
     width: 100%;
+}
+
+.hpcontainer {
+    width:  100%;
 }
 
 .indexhover {
@@ -242,29 +243,11 @@ h2.navbutton:hover, .navfon a:hover {
 
 .imgone img{
     max-height: 80vh;
-    /* Responsive width 100%; */
 }
 
 .imgtwo img{
     max-height: 80vh;
     margin: 0 20px;
-    /* Responsive width 100%; */
-}
-
-.andreas-ruetsche-01 {
-    background-image: url("../img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-logo-beschriftung.jpg");   
-}
-.andreas-ruetsche-02 {
-    background-image: url("../img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-arbeit.jpg");   
-}
-.esswerk-01 {
-    background-image: url("../img/luca-cellere-visuelle-kommunikation-esswerk-01.jpg");  
-}
-.esswerk-02 {
-    background-image: url("../img/luca-cellere-visuelle-kommunikation-esswerk-04.jpg");  
-}
-.esswerk-03 {
-    background-image: url("../img/luca-cellere-visuelle-kommunikation-esswerk-02.jpg");  
 }
 
 .projektdescription {
@@ -277,6 +260,15 @@ h2.navbutton:hover, .navfon a:hover {
     cursor: url('../img/closer.png')25 25, auto;
 }
 
+/*---------------------------------- 
+    Projekt Fullscreenimg
+-----------------------------------*/
+
+.andreas-ruetsche-01 {background-image: url("../img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-logo-beschriftung.jpg");}
+.andreas-ruetsche-02 {background-image: url("../img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-arbeit.jpg");}
+.esswerk-01 {background-image: url("../img/luca-cellere-visuelle-kommunikation-esswerk-01.jpg");}
+.esswerk-02 {background-image: url("../img/luca-cellere-visuelle-kommunikation-esswerk-04.jpg");}
+.esswerk-03 {background-image: url("../img/luca-cellere-visuelle-kommunikation-esswerk-02.jpg");}
 
 
 /*---------------------------------- 
@@ -291,10 +283,6 @@ footer {
     margin-top: 100px;
     padding-bottom: 20px;
     text-align: center;
-}
-
-.impressum {
-    cursor: pointer;
 }
 
 .ficontainer {
@@ -317,9 +305,8 @@ footer {
 }
 
 /*---------------------------------- 
-responsive ipad
+    responsive ipad
 -----------------------------------*/
-
 
 @media only screen and (max-width: 768px) {
     .homeproject, .navinfocontainer {width: 100%;}
@@ -334,7 +321,5 @@ responsive ipad
 
 @media only screen and (max-width: 414px) {
     h1, h2, .backhome, .navfon a {font-size: 30px;}
-    .navfon {bottom: 30px;}
-    
+    .navfon {bottom: 30px;} 
 }
-

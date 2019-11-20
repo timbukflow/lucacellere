@@ -16,9 +16,8 @@
     <section class="home">
         <!--Project-Andreas-Ruetsche-->
         <article class="homeproject">
-            <figure class="indexcontainer">
                 <!--Project-Link-->
-                <a href="andreas-ruetsche">
+                <a href="andreas-ruetsche" class="hpcontainer oc">
                     <!--Backgroundcolor-->
                     <div class="indexhover" style="background-color:#b14743;">
                         <!--Fontcolor-->
@@ -27,14 +26,12 @@
                     <!--Picture-link-->
                     <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-index.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche"> 
                 </a>
-            </figure>
         </article>
         
         <!--Project-Esswerk-->
         <article class="homeproject">
-            <figure class="indexcontainer">
                 <!--Project-Link-->
-                <a href="esswerk">
+                <a href="esswerk" class="hpcontainer oc">
                     <!--Backgroundcolor-->
                     <div class="indexhover" style="background-color:#3d6345;">
                         <!--Fontcolor-->
@@ -43,14 +40,12 @@
                     <!--Picture-link-->
                     <img src="img/luca-cellere-visuelle-kommunikation-esswerk-index.jpg" alt="luca-cellere-visuelle-kommunikation-esswerk"> 
                 </a>
-            </figure>
         </article>
         
         <!--Project-Leben-->
         <article class="homeproject">
-            <figure class="indexcontainer">
                 <!--Project-Link-->
-                <a href="leben">
+                <a href="leben" class="hpcontainer oc">
                     <!--Backgroundcolor-->
                     <div class="indexhover" style="background-color:#8d99a9;">
                         <!--Fontcolor-->
@@ -59,14 +54,12 @@
                     <!--Picture-link-->
                     <img src="img/luca-cellere-visuelle-kommunikation-leben-index.jpg" alt="luca-cellere-visuelle-kommunikation-leben"> 
                 </a>
-            </figure>
         </article>
         
         <!--Project-Honig-->
         <article class="homeproject">
-            <figure class="indexcontainer">
                 <!--Project-Link-->
-                <a href="honig">
+                <a href="honig" class="hpcontainer oc">
                     <!--Backgroundcolor-->
                     <div class="indexhover" style="background-color:#f8b932;">
                         <!--Fontcolor-->
@@ -75,7 +68,6 @@
                     <!--Picture-link-->
                     <img src="img/luca-cellere-visuelle-kommunikation-honig-index.jpg" alt="luca-cellere-visuelle-kommunikation-honig"> 
                 </a>
-            </figure>
         </article>
         
     <!--Home-Projekt-Ende-->
@@ -83,7 +75,6 @@
     
     <?php include 'footer.php'; ?>
     <?php include 'script.php'; ?>
-
 
 </body>
 </html>

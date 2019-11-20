@@ -1,8 +1,8 @@
 <footer>
     <div class="footer">
-        <p>© 2019 Luca Cellere | All Rights Reserved | <span class="impressum">Impressum</span></p>
+        <p>© 2019 Luca Cellere | All Rights Reserved | <span class="impressum oc">Impressum</span></p>
     </div>
-    <div class="ficontainer closercursor">
+    <div class="ficontainer cc">
         <p class="footer-impressum"> 
             Konzept und Inhalt<br><br>
             Luca Cellere<br>

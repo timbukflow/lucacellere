@@ -6,16 +6,16 @@ $(document).ready(function () {
         $('.navinfocontainer').css('left','0px');
     });
     
-    $('.closercursor').click(function() {
+    $('.closernav').click(function() {
         $('.navinfocontainer').css('left','-100%');
     });
     
-    $('.opencursor').click(function() {
+    $('.open').click(function() {
         var navinfo = $(this).attr("data-navinfo");
         $(navinfo).delay(500).show(600);
     });
     
-    $('.closercursor').click(function() {
+    $('.closer').click(function() {
         var closer = $(this).attr("data-closer");
         $(closer).hide(600);
     });
