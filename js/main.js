@@ -12,12 +12,12 @@ $(document).ready(function () {
     
     $('.open').click(function() {
         var navinfo = $(this).attr("data-navinfo");
-        $(navinfo).delay(500).show(600);
+        $(navinfo).delay(300).show(500);
     });
     
     $('.closer').click(function() {
         var closer = $(this).attr("data-closer");
-        $(closer).hide(600);
+        $(closer).hide(500);
     });
     
     $('.impressum').click(function() {

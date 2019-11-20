@@ -88,17 +88,18 @@ p, footer span, footer a {
     position: fixed;
     padding: 30px;
     box-sizing: border-box; 
-    transition: left 0.75s ease-out;
-    -webkit-transition: left 0.75s ease-out;
+    transition: left 0.5s ease-out;
+    -webkit-transition: left 0.5s ease-out;
 }
 
 .navfon {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
 }
 
 .navfon a {
-    display: inline-flex;
+    font-size: 25px;
+    padding-bottom: 5px;
 }
 
 h2.navbutton {
@@ -313,13 +314,13 @@ footer {
     .projektdescription {padding: 0 10%}
     .imgone img {max-height: none; width: 100%;}
     .imgtwo img {max-height: none; width: 43%; margin: 0 10px;}
-    h1, h2, .backhome, .navfon a {font-size: 40px;}
+    h1, h2, .backhome, .navfon a, .info a {font-size: 40px;}
     .info h1 {padding: 10%;}
     .closerinfo {margin-top: 0;}
     
 }
 
 @media only screen and (max-width: 414px) {
-    h1, h2, .backhome, .navfon a {font-size: 30px;}
-    .navfon {bottom: 30px;} 
+    h1, h2, .backhome, .navfon a, .info a {font-size: 30px;}
+    .navfon {bottom: 80px;}
 }
