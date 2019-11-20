@@ -4,7 +4,6 @@
 </section>
 
 <nav class="navinfocontainer closercursor">
-    <!--<img class="closer" src="img/closer.svg">-->
     <div><h2 class="navbutton opencursor" data-navinfo="#info">Info</h2></div>
     <div><h2 class="navbutton opencursor" data-navinfo="#kontakt">Kontakt</h2></div>
     <div class="navfon">
@@ -14,16 +13,15 @@
 </nav>
 
 <section>
-    <div id="info" class="infocontainer closercursor">
+    <div id="info" data-closer="#info" class="infocontainer closercursor">
         <div class="info">
             <h1>
                 Luca Cellere Ectur aute pores estrum eat que nis evel et vitiis sapiderio. As in electi odi del modignist, sequis doluptur aut mo moles idel idellit laborum utempora necea quia sum quid min perum que nat. Xerovitatet, cor sitat. Bis ullorro quiasit vendi nis porum ut volorerum vent, nonem ario. Nem et reptus restenet asi sequatia quos di alit quatetur. Moloreperro eum cone iur magnam re optatem fuga. Empor re, sequis.
             </h1>
-            <img class="closerinfo" src="img/closerw.svg" data-closer="#info">
         </div>
     </div>
     
-    <div id="kontakt" class="infocontainer closercursor">
+    <div id="kontakt" data-closer="#kontakt" class="infocontainer closercursor">
         <div class="info">
             <h1>
                 Luca Cellere<br>
@@ -35,7 +33,6 @@
                 <span><a class="info" href="..." target="_blank">Instagram</a></span><br>
                 <span><a class="info" href="..." target="_blank">LinkedIn</a></span>
             </h1>
-            <img class="closerinfo" src="img/closerw.svg" data-closer="#kontakt">
         </div>
     </div>
     

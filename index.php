@@ -11,7 +11,7 @@
 <body>
     <?php include 'nav.php'; ?>
     <header class="homeheader">
-        <h1 class="bw">Studio für<br>Visuelle Kommunikation</h1>
+        <h1>Studio für<br>Visuelle Kommunikation</h1>
     </header>
     <section class="home">
         <!--Project-Andreas-Ruetsche-->
@@ -22,7 +22,7 @@
                     <!--Backgroundcolor-->
                     <div class="indexhover" style="background-color:#b14743;">
                         <!--Fontcolor-->
-                        <h1 style="color:#000">Holz &amp; Form</h1>
+                        <h1 style="color:#fff">Holz &amp; Form</h1>
                     </div>
                     <!--Picture-link-->
                     <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-index.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche"> 

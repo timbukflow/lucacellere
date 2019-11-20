@@ -6,21 +6,19 @@ $(document).ready(function () {
         $('.navinfocontainer').css('left','0px');
     });
     
-    $('.navinfocontainer').click(function() {
+    $('.closercursor').click(function() {
         $('.navinfocontainer').css('left','-100%');
     });
     
-    $('.navbutton').click(function() {
+    $('.opencursor').click(function() {
         var navinfo = $(this).attr("data-navinfo");
-        $(navinfo).show(500);
+        $(navinfo).delay(500).show(600);
     });
     
-    $('.closerinfo').click(function() {
+    $('.closercursor').click(function() {
         var closer = $(this).attr("data-closer");
-        $(closer).hide(500);
+        $(closer).hide(600);
     });
-
-    
     
     $('.impressum').click(function() {
         $('.ficontainer').slideDown(500);
@@ -28,9 +26,7 @@ $(document).ready(function () {
     
     $('.ficontainer').click(function() {
         $('.ficontainer').slideUp(500);
-    });
-    
-    
+    }); 
     
 });
 
