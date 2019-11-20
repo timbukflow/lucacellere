@@ -241,7 +241,7 @@ h2.navbutton:hover, .navfon a:hover {
 }
 
 .imgone, .imgtwo {
-    overflow: hidden;
+   
 }
 
 .imgone img{
@@ -328,8 +328,8 @@ responsive ipad
 @media only screen and (max-width: 768px) {
     .homeproject, .navinfocontainer {width: 100%;}
     .projektdescription {padding: 0 10%}
-    .imgone img {max-height: none; height: 100%; width: 100%;}
-    .imgtwo img {max-height: none; height: 100%; width: 43%; margin: 0 10px;}
+    .imgone img {max-height: none; width: 100%;}
+    .imgtwo img {max-height: none; width: 43%; margin: 0 10px;}
     h1, h2, .backhome, .navfon a {font-size: 40px;}
     .info h1 {padding: 10%;}
     .closerinfo {margin-top: 0;}
