@@ -161,6 +161,9 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
     margin: 0px;
     margin-top: 330px; 
     display: inline-block;
+    background-color: #000;
+    z-index: 99;
+    position: relative;
 }
 
 .homeheader {
@@ -175,6 +178,10 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
     float: left;
     overflow: hidden;
     position: relative;
+}
+
+.homeproject h1 {
+    padding: 0 50px;
 }
 
 .homeproject img {
@@ -336,6 +343,7 @@ footer {
 
 @media only screen and (max-width: 414px) {
     h1, h2, .backhome, .navfon a, .info a {font-size: 20px;}
+    .homeproject h1 {font-size: 25px;}
     .navfon {bottom: 80px;}
     h2.navbutton {line-height: 1.5;}
     .navinfo {font-size: 20px; margin: 25px;}
