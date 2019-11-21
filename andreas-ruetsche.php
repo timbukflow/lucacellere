@@ -36,6 +36,7 @@
                     <h1 class="projektdescription bw">
                         Fotografie: Bodo Rüedi<br> Druck Visitenkarte: Tada Letterpress
                     </h1>
+                    <!--Closer X-->
                     <img class="projektcloser" src="img/closer.svg">
                 </article>
             </a>

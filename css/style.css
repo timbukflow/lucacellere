@@ -131,7 +131,6 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
 }
 
 .info h1 {
-    color: #ffffff;
     padding: 100px;
     padding-bottom: 0px;
     margin: 0px;
@@ -336,7 +335,7 @@ footer {
 }
 
 @media only screen and (max-width: 414px) {
-    h1, h2, .backhome, .navfon a, .info a {font-size: 25px;}
+    h1, h2, .backhome, .navfon a, .info a {font-size: 20px;}
     .navfon {bottom: 80px;}
     h2.navbutton {line-height: 1.5;}
     .navinfo {font-size: 20px; margin: 25px;}
@@ -344,6 +343,7 @@ footer {
     .monster img {width: 35px;}
     .home {margin-top: 210px;}
     .homeheader {padding-top: 80px;}
+    .homeheader h1, h2.navbutton {font-size: 25px;}
     p, p span, p a {font-size: 14px; line-height: 1.2;}
     .ficontainer .resp {margin-bottom: 0px;}
     
