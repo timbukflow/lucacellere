@@ -30,8 +30,8 @@
                 9000 St. Gallen<br>
                 <span><a class="info oc" href="tel:+41796659829">T +41 79 665 98 29</a></span><br>
                 <span><a class="info oc" href="mailto:hallo@lucacellere.ch" target="_top">hallo@lucacellere.ch</a></span><br><br>
-                <span><a class="info oc" href="..." target="_blank">Instagram</a></span><br>
-                <span><a class="info oc" href="..." target="_blank">LinkedIn</a></span>
+                <span><a class="info oc" href="https://www.instagram.com/luca_cellere/" target="_blank">Instagram</a></span><br>
+                <span><a class="info oc" href="https://www.linkedin.com/in/luca-cellere-3445a190/" target="_blank">LinkedIn</a></span>
             </h1>
         </div>
     </div>

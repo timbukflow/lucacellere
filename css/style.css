@@ -40,8 +40,8 @@ h1, h2, p, a {
     line-height: 1.1;
     text-align: center;
     display: inline-block;
-    hyphens: auto;
-    -webkit-hyphens: auto;
+    hyphens: none;
+    -webkit-hyphens: none;
     text-decoration: none;
     letter-spacing: 0.75px;
     text-rendering: optimizeLegibility;
