@@ -248,6 +248,10 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
 .projektscroller article figure {
     overflow: hidden;
     height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .imgfullscreen {

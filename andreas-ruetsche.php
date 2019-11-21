@@ -22,7 +22,9 @@
             </article>
             <!--Layout one img-->
             <article class="imgone">
-                <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-visitenkarten.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+                <figure>
+                    <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-visitenkarten.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+                </figure>
             </article>
             <!--Layout one img-->
             <article class="imgone">
@@ -32,8 +34,10 @@
             </article>
             <!--Layout two img-->
             <article class="imgtwo">
-                <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
-                <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+                <figure>
+                    <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+                    <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+                </figure>
             </article>
             <!--Fullscreenimg in Style.css definieren-->
             <article class="imgfullscreen andreas-ruetsche-02"></article>
