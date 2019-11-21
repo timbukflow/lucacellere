@@ -24,6 +24,10 @@
             <article class="imgone">
                 <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-visitenkarten.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
             </article>
+            <!--Layout one img-->
+            <article class="imgone">
+                <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+            </article>
             <!--Layout two img-->
             <article class="imgtwo">
                 <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
