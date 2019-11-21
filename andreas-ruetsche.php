@@ -26,7 +26,9 @@
             </article>
             <!--Layout one img-->
             <article class="imgone">
-                <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+                <figure>
+                    <img src="img/luca-cellere-visuelle-kommunikation-andreas-ruetsche-pfeffermuehle.jpg" alt="luca-cellere-visuelle-kommunikation-andreasruetsche">
+                </figure>
             </article>
             <!--Layout two img-->
             <article class="imgtwo">
