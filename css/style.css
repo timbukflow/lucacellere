@@ -217,6 +217,8 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
 
 .projektscroller{
     scroll-snap-type: y mandatory;
+    -webkit-scroll-snap-type: y mandatory;
+    -ms-scroll-snap-type: y mandatory;
     overflow-x: hidden;
     overflow-y: scroll;
     display: flex;
