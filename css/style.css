@@ -341,7 +341,8 @@ footer {
     .home {margin-top: 300px;}
     .projektdescription {padding: 0 10%}
     .imgone img {max-height: none; width: 100%;}
-    .imgtwo img {max-height: none; width: 43%; margin: 0 10px;}
+    .imgone.hochformat img {max-height: none; width: 90%;}
+    .imgtwo img {max-height: none; width: 42.5%; margin: 0 10px;}
     h1, h2, .backhome, .navfon a, .info a {font-size: 40px;}
     .info h1 {padding: 10%;}
     .closerinfo {margin-top: 0;}
