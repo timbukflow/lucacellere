@@ -76,6 +76,7 @@ p, footer span, footer a {
 .monster {
     float: right;
     margin: 30px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -88,8 +89,8 @@ p, footer span, footer a {
     position: fixed;
     padding: 30px;
     box-sizing: border-box; 
-    transition: left 0.5s ease-out;
-    -webkit-transition: left 0.5s ease-out;
+    transition: left 0.75s ease-out;
+    -webkit-transition: left 0.75s ease-out;
 }
 
 .navfon {
@@ -112,13 +113,15 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
 
 .infocontainer {
     min-width: 100%;
-    background-color: #393939;
+    background-color: #3c3c3c;
     min-height: 100vh;
     position: fixed;
+    left: 100%;
     top: 0;
     z-index: 102;
     text-align: center;
-    display: none;
+    transition: left 0.75s ease-out;
+    -webkit-transition: left 0.75s ease-out;
 }
 
 .info {
@@ -311,16 +314,25 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .homeproject, .navinfocontainer {width: 100%;}
+    .home {margin-top: 300px;}
     .projektdescription {padding: 0 10%}
     .imgone img {max-height: none; width: 100%;}
     .imgtwo img {max-height: none; width: 43%; margin: 0 10px;}
     h1, h2, .backhome, .navfon a, .info a {font-size: 40px;}
     .info h1 {padding: 10%;}
     .closerinfo {margin-top: 0;}
+    p, p span, p a {font-size: 18px;}
     
 }
 
 @media only screen and (max-width: 414px) {
     h1, h2, .backhome, .navfon a, .info a {font-size: 30px;}
     .navfon {bottom: 80px;}
+    .navinfo {font-size: 20px; margin: 25px;}
+    .monster {margin: 25px; margin-top: 10px;}
+    .monster img {width: 35px;}
+    .home {margin-top: 250px;}
+    .footer {margin-top: 50px;}
+    .ficontainer .resp {margin-bottom: 0px;}
+    
 }

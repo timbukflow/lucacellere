@@ -3,7 +3,7 @@
         <p>© 2019 Luca Cellere | All Rights Reserved | <span class="impressum oc">Impressum</span></p>
     </div>
     <div class="ficontainer cc">
-        <p class="footer-impressum"> 
+        <p class="footer-impressum resp"> 
             Konzept und Inhalt<br><br>
             Luca Cellere<br>
             Visuelle Kommunikation<br>
