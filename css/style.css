@@ -37,7 +37,7 @@ h1, h2, p, a {
     font-style: normal;
     font-family: 'calibre', Helvetica, Sans-Serif;
     font-size: 50px;
-    line-height: 1.2;
+    line-height: 1.1;
     text-align: center;
     display: inline-block;
     hyphens: auto;
@@ -167,7 +167,7 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
 .homeheader {
     width: 100%;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 80px;
     position: fixed;
 }
 
@@ -286,8 +286,8 @@ footer {
 }
 
 .footer {
-    margin-top: 100px;
-    padding-bottom: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -328,13 +328,12 @@ footer {
 }
 
 @media only screen and (max-width: 414px) {
-    h1, h2, .backhome, .navfon a, .info a {font-size: 30px;}
+    h1, h2, .backhome, .navfon a, .info a {font-size: 25px;}
     .navfon {bottom: 80px;}
     .navinfo {font-size: 20px; margin: 25px;}
     .monster {margin: 25px; margin-top: 10px;}
     .monster img {width: 35px;}
     .home {margin-top: 250px;}
-    .footer {margin-top: 50px;}
     .ficontainer .resp {margin-bottom: 0px;}
     
 }
