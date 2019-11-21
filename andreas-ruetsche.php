@@ -33,12 +33,12 @@
             <article class="imgfullscreen andreas-ruetsche-02"></article>
             <a href="index" class="projectend">
                 <article>
-                
-                <h1 class="projektdescription bw">
-                    Fotografie: Bodo Rüedi<br> Druck Visitenkarte: Tada Letterpress
-                 </h1>
-                
-            </article></a>
+                    <h1 class="projektdescription bw">
+                        Fotografie: Bodo Rüedi<br> Druck Visitenkarte: Tada Letterpress
+                    </h1>
+                    <img class="projektcloser" src="img/closer.svg">
+                </article>
+            </a>
         </section>
     </div>    
     
