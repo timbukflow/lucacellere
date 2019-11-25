@@ -246,6 +246,7 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
     position: relative;
     width: 100%;
     min-height: 100vh;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
