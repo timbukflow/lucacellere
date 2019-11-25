@@ -247,9 +247,12 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
     width: 100%;
     min-height: 100vh;
     height: 100px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
+    -ms-flex-pack: center;
 }
 
 .projektscroller article figure {
