@@ -158,7 +158,6 @@ h2.navbutton:hover, .navfon a:hover, .info a:hover {
      cursor: url('../img/open.png')25 25, auto;
 }
 
-
 /*---------------------------------- 
     Home
 -----------------------------------*/
@@ -358,7 +357,7 @@ footer {
     .closerinfo {margin-top: 0;}
     p, p span, p a {font-size: 18px;}
     .projektcloser {display: block;}
-    
+    .respfix, .respfixinfo {position: fixed;}
 }
 
 @media only screen and (max-width: 568px) {
