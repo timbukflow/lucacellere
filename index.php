@@ -13,6 +13,7 @@
     <header class="homeheader">
         <h1>Studio für<br>Visuelle Kommunikation</h1>
     </header>
+    
     <section class="home">
         <!--Project-Andreas-Ruetsche-->
         <article class="homeproject">
